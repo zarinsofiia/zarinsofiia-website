@@ -1,0 +1,83 @@
+h2{
+	text-align:center;
+	margin: auto;
+}
+
+table{
+	width:80%;
+	margin: auto;
+	text-align: left;
+}
+
+th, td{
+	border: 3px solid #c26d7f;
+}
+
+
+th{
+	padding: 5%;
+	font-style: italic;
+	background: #b3929c;
+}
+
+td{
+	padding: 15px;
+}
+.me{
+	width:30%;
+	height:20%;
+	border-radius: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.biography-box{
+	background: linear-gradient(rgba(224, 199, 197,1), rgba(224, 199, 197,0.3)),
+	url(images/bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	padding: 15px;
+	
+	border-radius: 10px;
+	width: 80%;
+	height: 400;
+	color: #1c090b;
+	margin: auto;
+	box-shadow: 5px 5px 5px #453437;
+	border: 3px solid #222;
+}
+
+.image-box{
+	position: relative;
+	width: 40%;
+	height:  80%;
+	padding: 15px;
+	left: 10px;
+}
+
+.table-box{
+	position: absolute;
+	left: 45%;
+	width: 48%;
+	bottom: 50px;
+	margin: auto;
+	
+}
+
+.audio-box{
+	height: 40%;
+}
+
+.image-box audio{
+	width: 80%;
+	padding: 10px;
+}
+.audio-box h4{
+	font-family: papyrus;
+	font-size: 18px;
+}
+
+

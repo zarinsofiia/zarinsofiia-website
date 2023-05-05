@@ -1,0 +1,118 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Noto Serif Hebrew', serif;
+}	
+
+.loginform-box{
+	width: 30%;
+	height: 80%;
+	position: relative;
+	margin: auto;
+	background: linear-gradient(rgba(224, 199, 197,0.2), rgba(224, 199, 197,0.2)),
+	url(images/bg.jpg);
+	padding: 5px;
+	border: 3px solid #c26d7f;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px #453437;
+}
+
+h2{
+	color: #753030;
+	text-align:center;
+	margin: 30px 10px;
+}
+.social-icons{
+	margin: 20px auto;
+	text-align: center;
+}
+
+.fa-brands{
+	width: 50px;
+	margin: 0 12px;
+	box-shadow: 0 0 20px 0 #b08790;
+	cursor: pointer;
+	border-radius: 50px;
+}
+
+.input-groups{
+	top: 180px;
+	position: absolute;
+	width: 280px;
+	transition: 0.5s;
+}
+
+.input-field{
+	width: 100%;
+	padding: 10px 0;
+	margin: 5px 0;
+	border-left: 0;
+	border-right: 0;
+	border-top: 0;
+	border-bottom: 1px solid #999;
+	outline: none;
+	background: none;
+}
+
+.submit-btn, .reset-btn{
+	width: 85%;
+	padding: 10px 20px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: linear-gradient(rgba(224, 199, 197,0.8), rgba(224, 199, 197,0.8));
+	border: 1px solid #c26d7f;
+	outline: none;
+	border-radius: 30px;
+}
+
+.submit-btn:hover, .reset-btn:hover{
+	border:1px solid #6b154b;
+	transition: 1s;
+	background: #c2a5b7;
+}
+
+.check-box{
+	margin: 10px 10px 10px 0;
+}
+
+.remember{
+	color: #777;
+	font-size: 12px;
+	font-family: Noto Serif Hebrew;
+}
+
+::placeholder{
+	color: #777;
+	font-size:12px;
+}
+
+.forget-link, .sign-link{
+	color: #000;
+	text-decoration: none;
+	font-size: 12px;
+	display: block;
+	margin: 10px;
+	
+}
+
+th{
+  border: 1px solid #c26d7f;
+  border-color: #222;
+}
+
+td{
+	border-bottom: 2px solid #222;
+	border-top: 2px solid #222;
+	border-right: 2px solid #222;
+	border-left: 2px solid #222;
+}
+
+table {
+	width: 90%;
+	margin: auto;
+}
+
+ td{
+	 padding: 10px;
+ }

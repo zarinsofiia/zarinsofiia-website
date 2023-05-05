@@ -1,0 +1,158 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Noto Serif Hebrew', serif;
+}	
+
+
+
+.header {
+	min-height:100vh;
+	width:100%;
+	background-image: 
+	linear-gradient(rgba(212, 190, 201,0.5), rgba(176, 121, 149,0.5)),
+	url(images/book.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+}
+
+nav {
+	display: flex;
+	padding: 2% 6%;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+nav img{
+	width: 50px;
+	
+}
+
+.nav-links {
+	display: flex;
+	text-align: right;
+	position: relative;
+}
+
+.nav-links ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 8px 12px;
+	position: relative;
+}
+
+.nav-links ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+.nav-links ul li::after {
+	content: '';
+	width: 0%;
+	height: 2px;
+	background: #611513;
+	display: block;
+	margin: auto;
+	transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+	width: 100%;
+}
+
+.welcome-box h1{
+	font-size: 50px;
+	color: #fff;
+}
+
+.visit-btn{
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	background: transparent;
+	position: relative;
+	cursor: pointer;
+}
+.visit-btn:hover{
+	border:1px solid #6b154b;
+	transition: 1s;
+	background: #c2a5b7;
+}
+
+nav .fa-solid{
+	display: none;
+}
+
+
+
+.img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+}
+	
+.welcome-box{
+	width: 100%;
+	color: #fff;
+	position: relative;
+	text-align: center;
+	
+}
+
+.footer-box{
+	font-weight: bolder;
+	opacity: 1;
+	font-family: "Open Sans";
+	color: #291904;
+	text-align: center;
+	position: relative;
+	font-size: 10px;
+	width: 50%;
+	margin: auto;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.welcome-text{
+	margin: 50px;
+	text-align: center;
+}
+
+.social-icons{
+	text-align: center;
+	font-size: 10px;
+	margin: 15px;	
+}
+
+.parent{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+}
+
+.logo{
+	border-radius: 50px;
+}
+
+span{
+	font-family: Segoe Script;
+	
+	margin-top: 15px;
+}
+
+.logolink{
+	text-decoration:none;
+	font-size:35px;
+	color: #471e31;
+}
+	
+	
+
+
+	
